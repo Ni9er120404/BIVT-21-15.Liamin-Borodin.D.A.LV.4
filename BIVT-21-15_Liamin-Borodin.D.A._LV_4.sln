@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIVT-21-15_Liamin-Borodin.D.A._LV_4", "BIVT-21-15_Liamin-Borodin.D.A._LV_4\BIVT-21-15_Liamin-Borodin.D.A._LV_4.csproj", "{BFC3A59E-94D9-4D02-BF78-5634FCF3ED03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC3A59E-94D9-4D02-BF78-5634FCF3ED03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC3A59E-94D9-4D02-BF78-5634FCF3ED03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC3A59E-94D9-4D02-BF78-5634FCF3ED03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC3A59E-94D9-4D02-BF78-5634FCF3ED03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E3C881-AD3D-472B-AE51-482FA0679EFC}
+	EndGlobalSection
+EndGlobal
