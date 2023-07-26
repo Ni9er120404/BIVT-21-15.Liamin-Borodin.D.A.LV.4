@@ -1,0 +1,30 @@
+﻿<Window x:Class="LaboratoryWork.OOP._4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Крестики нолики" Height="613" Width="582">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Label Content="Игрок №1"/>
+		<Label Grid.Row="1" Content="0" x:Name="Score1"/>
+		<Label Grid.Row="2" Content="Игрок №2"/>
+		<Label Grid.Row="3" Content="0" x:Name="Score2"/>
+		<Label Grid.Row="4" Content="Счет"/>
+		<Grid Grid.Row="1" x:Name="GameGrid" Margin="0,10">
+			<!-- Код для отрисовки игрового поля -->
+		</Grid>
+		<Button Grid.Row="2" x:Name="NewGameButton" Content="Новая игра" Click="NewGameButtonClick" Margin="10,0"/>
+		<Button Grid.Row="3" x:Name="ResetScoreButton" Content="Сбросить счет" Click="ResetScoreButtonClick" Margin="10,0"/>
+		<Menu Grid.Row="0">
+			<MenuItem Header="Игра">
+				<MenuItem Header="Новая игра" Click="NewGameMenuItemClick"/>
+				<MenuItem Header="Перезагрузить игру" Click="RebootGameMenuItemClick"/>
+				<MenuItem Header="Сохранить игру" Click="SaveGameMenuItemClick"/>
+				<MenuItem Header="Удалить результаты игры" Click="DeleteResultsMenuItemClick"/>
+				<MenuItem Header="Загрузить сохранение" Click="LoadLastSaveMenuItemClick"/>
+			</MenuItem>
+		</Menu>
+	</Grid>
+</Window>
